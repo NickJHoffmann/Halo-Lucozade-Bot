@@ -1,0 +1,13 @@
+{
+  "name": "LucozadeBot",
+  "description": "Automate the submission form for the Halo Infinite Lucozade giveaway",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "js/background.js"
+  },
+  "permissions": ["storage"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}

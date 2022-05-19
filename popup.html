@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lucozade Bot</title>
+    <link rel="stylesheet"  href="css/bootstrap.css">
+    <link rel="stylesheet"  href="css/bootstrap-theme.css">
+</head>
+<body>
+    <!-- https://getbootstrap.com/docs/4.0/components/input-group/ -->
+    <div class="input-group mb-3" style="width: 200px">
+        <div class="input-group-prepend">
+            <span class="input-group-text" id="name-field">First Name</span>
+        </div>
+        <input type="text" class="form-control" placeholder="Nick" aria-label="First Name" aria-describedby="name-field" id="firstName">
+    </div>
+
+    <div class="input-group mb-3" style="width: 200px">
+        <div class="input-group-prepend">
+            <span class="input-group-text" id="email-field">Email</span>
+        </div>
+        <input type="text" class="form-control" placeholder="example@example.com" aria-label="First Name" aria-describedby="email-field" id="userEmail">
+    </div>
+
+    <button id="saveBtn" class="btn btn-primary">Save</button>
+    <button id="startBtn" class="btn btn-success">Start</button>
+
+    <script src="js/popup.js"></script>
+</body>
+</html>
